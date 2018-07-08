@@ -13,9 +13,9 @@
 	# Go into excel and save it as "Tab Delimited Text (.txt)"
 
 
-filename <- "Lesson-02/micro_array_results_table1.txt"
+filename <- "Lesson-02/micro_array_results_table1.csv"
 
-my_data <- read.csv(filename, sep="\t", header=TRUE)
+my_data <- read.csv(filename, header = T)
 head(my_data)
 
 
